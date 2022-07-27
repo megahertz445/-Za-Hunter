@@ -21,7 +21,7 @@ struct LocationDetailsView: View {
                 .font(.title)
                 .padding()
             Link(destination: selectedMapItem.url!) {
-                Text("Webstie")
+                Text("Website")
                     .padding()
             }
             Button {
